@@ -1,0 +1,8 @@
+#wapp to read two integers and swap them
+n1= int(input ("Enter First number: "))
+n2= int(input ("Enter second number: "))
+print ("The first number is:", n1 , "The second number is:", n2)
+n3=n1
+n1=n2
+n2=n3
+print ("The swaped first number is:", n1 , "And the swaped second number is:", n2);
